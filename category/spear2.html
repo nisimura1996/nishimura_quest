@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>冒険の準備</title>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <div class="container position">
+      <div class="site-monster">
+        <a href="#" class="top-link"><img src="../img/monster/show4.jpg" alt="ギガンテス"><!--
+        --><img src="../img/monster/show5.jpg" alt="キラーマシン"><!--
+        --><img src="../img/monster/show6.jpg" alt="うごくせきぞう"></a>
+      </div>
+      <div class="title-wrapper">
+        <h1 class="main-title"><a href="#" class="top-link">NISHIMURA　QUEST</a></h1>
+        <h2 class="sub-title"><a href="#" class="top-link">Supporting adventure</a></h2>
+      </div>
+      <div class="info-wrapper">
+        <p class="info">3000万点、3000メーカー、1個から<span>送料無料</span>。
+        <br>12時までのご注文で最短当日出荷可能。</p>
+        <p class="info-time">営業時間は8:00~20:00です。（日曜・年末年始を除く）</p>
+      </div>
+    </div>
+    
+    <!-- 検索バー -->
+    <div class="container flex1">
+      <form id="form1" action="http://127.0.0.1:5500/index.html">
+        <input id="sbox" name="s" type="text" placeholder="キーワードを入力" />
+        <input id="sbtn" type="submit" value="検索" />
+      </form>
+
+      <div class="login-btn-wrapper">
+        <button class="login-btn" type="button" onclick="location.href='../index.html'">マイページ</button>
+        <button class="login-btn" type="button" onclick="location.href='../index.html'">ログアウト</button>
+      </div>
+    </div>
+    <!-- 検索バー -->
+  </header>
+  <!-- ヘッダー -->
+
+  <main>
+    <!-- ページネーション -->
+    <div class="slide-wrapper">
+      <div class="view-page"><p>13 - 24 / 36 件中</p></div>
+      <div class="change-btn-wrapper">
+        <div class="index-btn"><a href="spear.html" class="page">最初</a></div>
+        <div class="index-btn-wrapper">
+          <div class="index-btn"><a href="spear.html" class="page">1</a></div>
+          <div class="index-btn"><a href="spear2.html" class="page">2</a></div>
+          <div class="index-btn"><a href="spear3.html" class="page">3</a></div>
+        </div>
+        <div class="index-btn"><a href="spear3.html" class="page">最後</a></div>
+      </div>
+    </div>
+    <!-- ページネーション -->
+
+    <!-- 商品一覧 -->
+    <div class="container main-flex">
+
+      <!-- 詳細検索 -->
+      <div class="popup-window">
+        <div class="window categories">
+          <div class="window-title">カテゴリーから探す</div>
+          <div class="category-box">
+            <a href="sword.html" class="category">
+              <div class="category-parts">片手剣</div>
+              <div class="category-img">
+                <img src="img/icon/show1.png" alt="">
+              </div>
+            </a>
+            <a href="great-sword.html" class="category">
+              <div class="category-parts">両手剣</div>
+              <div class="category-img">
+                <img src="img/icon/show2.png" alt="">
+              </div>
+            </a>
+            <a href="spear.html" class="category">
+              <div class="category-parts">ヤリ</div>
+              <div class="category-img">
+                <img src="img/icon/show3.png" alt="">
+              </div>
+            </a>
+            <a href="cane.html" class="category">
+              <div class="category-parts">両手杖</div>
+              <div class="category-img">
+                <img src="img/icon/show4.png" alt="">
+              </div>
+            </a>
+            <a href="whip.html" class="category">
+              <div class="category-parts">ムチ</div>
+              <div class="category-img">
+                <img src="img/icon/show5.png" alt="">
+              </div>
+            </a>
+          </div>
+          </div>
+  
+        <div class="window place">
+          <div class="window-title">発注元住所から探す</div>
+          <div class="category-box">
+            <a href="#" class="category">
+              <div class="category-parts">大洲市</div>
+              <div class="category-img">
+                <i class="fas fa-baseball-ball"></i>
+              </div>
+            </a>
+            <a href="#" class="category">
+              <div class="category-parts">松山市</div>
+              <div class="category-img">
+                <i class="fas fa-camera-retro"></i>
+              </div>
+            </a>
+            <a href="#" class="category">
+              <div class="category-parts">今治市</div>
+              <div class="category-img">
+                <i class="fas fa-bicycle"></i>
+              </div>
+            </a>
+            <a href="#" class="category">
+              <div class="category-parts">八幡浜市</div>
+              <div class="category-img">
+                <i class="fas fa-fish"></i>
+              </div>
+            </a>
+            <a href="#" class="category">
+              <div class="category-parts">西条市</div>
+              <div class="category-img">
+                <i class="fas fa-anchor"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- 詳細検索 -->
+  
+      <div class="container parts-wrapper">
+        <a class="parts" id="parts3" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+        <a class="parts" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+        <a class="parts" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+        <a class="parts" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+        <a class="parts" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+        <a class="parts" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+        <a class="parts" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+        <a class="parts" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+        <a class="parts" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+        <a class="parts" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+        <a class="parts" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+        <a class="parts" href="../parts/parts3.html">
+          <div class="parts-img">
+            <img src="../img/weapon/ﾔﾘ/show (9).png">
+          </div>
+          <div class="parts-body">
+            <div class="parts-cate">ヤリ</div>
+            <h1 class="parts-title">いなづまのやり</h1>
+            <p class="time">希望納期：2020-01-06</p>
+            <p>希望価格：2500G</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- 商品一覧 -->
+  </main>
+
+  <!-- トップに戻るボタン -->
+  <div class="container to-top">
+    <a  href="#">↑トップへ戻る</a>
+  </div>
+  <!-- トップに戻るボタン -->
+
+  <!-- ページネーション -->
+  <div class="slide-wrapper">
+    <div class="change-btn-wrapper">
+      <div class="index-btn"><a href="spear.html" class="page">最初</a></div>
+      <div class="index-btn-wrapper">
+        <div class="index-btn"><a href="spear.html" class="page">1</a></div>
+        <div class="index-btn"><a href="spear2.html" class="page">2</a></div>
+        <div class="index-btn"><a href="spear3.html" class="page">3</a></div>
+      </div>
+      <div class="index-btn"><a href="spear3.html" class="page">最後</a></div>
+    </div>
+  </div>
+<!-- ページネーション -->
+
+  <footer>
+    <div class="container footer-flex">
+      <a class="footer-link" href="">
+        <h3 class="footer-title">NISHIMURA　QUEST</h3>
+      </a>
+      <p class="footer-subtitle">Sales area</p>
+    </div>
+    <div class="container">
+      <div class="area">
+        <p class="area-name">イシの村</p>
+        <p class="area-name">デルカダール城</p>
+        <p class="area-name">ホムラの里</p>
+        <p class="area-name">サマディー城</p>
+        <p class="area-name">ダーハルーネの町</p>
+        <p class="area-name">ネルセンの宿屋</p>
+        <p class="area-name">ソルティコの町</p>
+        <p class="area-name">ナギムナー村</p>
+        <p class="area-name">海底王国ムウレア</p>
+        <p class="area-name">メダル女学園</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="footer-bottom">
+        Copyright NISHIMURA　QUEST Corporation All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(function(){
+// ヘッダー画像
+    $('.site-monster').hide().fadeIn(3000);
+    $('.title-wrapper').hide().fadeIn(4500);
+
+    
+// トップに戻るボタン
+    var topBtn = $('.to-top');    
+    topBtn.hide();
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+/* 依頼詳細 */
+.request {
+  margin-bottom: 40px;
+}
+.parts-title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #000;
+  border-left: 15px solid #627295;
+}
+.request-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.slide img {
+  max-width: 200px;
+  height: 200px;
+  margin-right: 70px;
+}
+.slide {
+  display: none;
+}
+.active {
+  display: block;
+  max-width: 300px;
+  height: 300px;
+}
+/* ツールチップ */
+.index-img-wrapper {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.index-img-wrapper span {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.6em;
+  color: #000;
+  border-radius: 5px;
+  background: #b7c1d6;
+  width: 70px;
+}
+.index-img-wrapper span::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border: 15px solid transparent;
+  border-top: 15px solid #b7c1d6;
+  margin-left: -15px;
+}
+.index-img-wrapper:hover span {
+  display: inline-block;
+  top: -70px;
+  left: -15px;
+}
+.index-img img {
+  width: 174px;
+  height: 174px;
+}
+/* ----ツールチップ---- */
+.index-img {
+  width: 100px;
+  height: auto;
+  text-align: center;
+  cursor: pointer;
+  /* overflow: hidden; */
+}
+.index-img:not(:first-child) {
+  margin-top: 10px;
+}
+.index-img img {
+  width: 100px;
+  height: auto;
+}
+.index-img img:hover {
+  width: 100px;
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+}
+
+.table {
+  margin: 20px auto;
+  max-width: 500px;
+  border-collapse: collapse;/* 余白を消す */
+}
+.table th {
+  background: #b7c1d6;
+  border: solid 1px #ccc;
+  color: #000;
+  padding: 10px;
+  text-align: left;
+  width: 25%;
+}
+.table td {
+  border: solid 1px #ccc;
+  padding: 10px;
+  text-align: left;
+}
+.detail-btn {
+  text-align: center;
+  margin: 0 auto;
+}
+/* ----依頼詳細---- */
+
+@media screen and (max-width: 767px) {
+  .request-flex {
+    flex-direction: column;
+  }
+  .index-img-wrapper {
+    display: flex;
+  }
+  .index-img-wrapper .index-img {
+    margin-top: 0;
+  }
+}
